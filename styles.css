@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Work+Sans:ital,wght@0,400;1,600&display=swap');
+
+body {
+  font-family: 'Caveat', cursive;
+  margin: 0px;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.top-heading {
+  background-color: yellow;
+  text-align: center;
+  margin-top: 0;
+  padding: 1rem;
+}
+
+#text-input {
+  text-align: center;
+  color: #ffffff;
+  color: #454727;
+  font-weight: bolder;
+}
+
+textarea {
+  width: 60%;
+  height: 17vh;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: var(--primary);
+  margin: auto;
+}
+
+#btn-translate {
+  max-width: 600px;
+  margin: 1.9rem;
+  background-color: yellow;
+  color: rgb(14, 13, 13);
+  font-size: large;
+  padding: 1rem;
+  border-radius: 0.2rem;
+}
+
+#dialog {
+  font-size: x-large;
+}
+
+#output {
+  border: 1px solid;
+  width: 60%;
+  height: 17vh;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: var(--primary);
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(255, 211, 14);
+  text-decoration: none;
+  margin-top: 5rem;
+}
+
+footer #about-text {
+  font-size: x-large;
+  margin: auto;
+  text-align: center;
+  width: 800px;
+}
